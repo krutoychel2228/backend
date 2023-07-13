@@ -4,7 +4,7 @@ from django.db import models
 class Teacher(models.Model):
     """Модель преподавателя или курса."""
     name = models.CharField(max_length=250, verbose_name='ФИО или название')
-    institute = models.CharField(max_length=250, verbose_name='Институт')
+    institute = models.CharField(max_length=250, verbose_name='Должность')
     image = models.ImageField(upload_to='teachers/', verbose_name='Фотография')
     contacts = models.TextField(verbose_name='Ссылка на сайте УрФУ')
 
