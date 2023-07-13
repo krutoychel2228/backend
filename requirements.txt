@@ -11,3 +11,6 @@ PyYAML==6.0
 sqlparse==0.4.4
 typing_extensions==4.7.1
 uritemplate==4.1.1
+django-cors-headers
+Pillow
+django-filter
